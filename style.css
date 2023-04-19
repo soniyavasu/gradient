@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+.name{
+	color:blue;
+}
+
+.pra1{
+	font-family:'Raleway Dots', cursive;
+	font-size:25px;
+	font-weight:800;
+	color:blue;
+	border-color:green;
+}
+.div{
+	background-image:url("../img/bg.jpg");
+	/* background:src("../video/pixe.636d95b0.mp4") no-repeat; */
+	background-repeat:repeat-y;
+	background-position:left;
+	background-attachment:fixed;
+	background-color:orange;
+	width:auto;
+	height:300px;
+}
+/* #myVideo { */
+  /* position: fixed; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* min-width: 100%;  */
+  /* min-height: 100%; */
+
+.div1{
+	background:aqua url("../img/bg.jpg") no-repeat right ;
+	
+}
+.world + p{
+	color:red;
+}
+.line{
+	display:flex;
+}
+.linear{
+	width:500px;
+	height:200px;
+	background-color:red;
+	background:linear-gradient(red , #b43c65);
+	border-radius:30px;
+}
+.linear2{
+	margin-left:300px;
+	width:500px;
+	height:200px;
+	background:linear-gradient(45deg , #008000a3 , #00ffff69) , url("../img/bg.jpg") ;
+	border-radius:30px;
+}
+.line2{
+	display:flex;
+}
+.linear3{
+	width:500px;
+	height:200px;
+	background-color:red;
+	background:linear-gradient(to bottom ,red ,yellow, rgba(0,0,225,1));
+	border-radius:30px;
+}
+.linear4{
+	margin-left:300px;
+	width:500px;
+	height:200px;
+	background:repeating-linear-gradient(30deg , #e22263 , orange 5% , aqua 10%);
+	border-radius:50%;
+}
+.line3{
+	display:flex;
+}
+.linear5{
+	width:500px;
+	height:200px;
+	background-color:red;
+	background:radial-gradient(red , blue);
+	border-radius:30px;
+}
+.linear6{
+	margin-left:300px;
+	width:500px;
+	height:200px;
+	background:radial-gradient( #e91e63, #00ffffe3) , url("../img/bg.jpg") ;
+	border-radius:30px;
+}
+.line4{
+	display:flex;
+}
+.linear7{
+	width:500px;
+	height:200px;
+	background-color:red;
+	background:radial-gradient(red ,yellow, rgba(0,0,225,1));
+	border-radius:30px;
+}
+.linear8{
+	margin-left:300px;
+	width:500px;
+	height:200px;
+	border-radius:50%;
+	background:repeating-radial-gradient(#ff3535 , orange 5% , aqua 10%);
+}
+.line5{
+	display:flex;
+}
+.linear9{
+	width:500px;
+	height:200px;
+	background-color:red;
+	background:conic-gradient(red , blue);
+	border-radius:30px;
+}
+.linear10{
+	margin-left:300px;
+	width:500px;
+	height:200px;
+	background:conic-gradient(from 90deg , #008000d1 , #00ffffe3) , url("../img/bg.jpg") ;
+	border-radius:30px;
+}
+.line6{
+	display:flex;
+}
+.linear11{
+	width:500px;
+	height:200px;
+	background-color:red;
+	background:conic-gradient(from 180deg , red ,yellow, green , blue , rgba(0,0,225,1) , pink , aqua ,orange);
+	border-radius:30px;
+}
+.linear12{
+	margin-left:300px;
+	width:500px;
+	height:200px;
+	border-radius:50%;
+	background:repeating-conic-gradient(from 270deg , #ff3535 , orange 5% , aqua 10%);
+}
